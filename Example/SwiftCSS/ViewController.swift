@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         pic = UIImageView(image: UIImage(contentsOfFile: "flower"))
         view.addSubview(pic)
         
-        name.text = item["name"] as? String
+        name.text = "I make your like easy."
+        name.textColor = UIColor.blackColor()
         name.textAlignment = NSTextAlignment.Center
         view.addSubview(name)
         
@@ -69,6 +70,7 @@ class ViewController: UIViewController {
         pic.widthPercent = 50
         name.marginTop = 20
         name.widthPercent = 80
+        name.height = 50
         addBtn.widthPercent = 100
         addBtn.height = 50
         addBtn.marginBottomAbsolute = 0

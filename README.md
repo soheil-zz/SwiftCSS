@@ -19,18 +19,37 @@ SwiftCSS extends UIView by providing CSS-like properties to position and size el
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+**Note** The order in which views are added to a parent view is important, just like in HTML.
 
 ## Available Properties
 
-```marginTop```
-```marginTopAbsolute```
-```marginBottom```
-```marginBottomAbsolute```
-```marginLeft```
-```widthPercent```
-```heightPercent```
-```width```
-```height```
+```
+marginTop
+```
+```
+marginTopAbsolute
+```
+```
+marginBottom
+```
+```
+marginBottomAbsolute
+```
+```
+marginLeft
+```
+```
+widthPercent
+```
+```
+heightPercent
+```
+```
+width
+```
+```
+height
+```
 
 ## Installation
 
