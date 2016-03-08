@@ -1,15 +1,36 @@
 # SwiftCSS
 
-[![CI Status](http://img.shields.io/travis/Soheil/SwiftCSS.svg?style=flat)](https://travis-ci.org/Soheil/SwiftCSS)
-[![Version](https://img.shields.io/cocoapods/v/SwiftCSS.svg?style=flat)](http://cocoapods.org/pods/SwiftCSS)
-[![License](https://img.shields.io/cocoapods/l/SwiftCSS.svg?style=flat)](http://cocoapods.org/pods/SwiftCSS)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftCSS.svg?style=flat)](http://cocoapods.org/pods/SwiftCSS)
+SwiftCSS extends UIView by providing CSS-like properties to position and size elements.
+```
+        let name = UILabel()
+        name.text = "Look at me I'm some text"
+        name.textAlignment = NSTextAlignment.Center
+        name.marginTop = 20 // 20 pixels below the top of the page
+        name.widthPercent = 80 // centers with a width of 80% of the page
+
+        let addBtn = UIButton()
+        name.marginTop = 20 // 20 pixels below the previous element
+        addBtn.widthPercent = 100
+        addBtn.height = 50 //pixels
+        addBtn.marginBottomAbsolute = 0 //snaps to the bottom of the page
+```
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
+## Available Properties
+
+`marginTop`
+`marginTopAbsolute`
+`marginBottom`
+`marginBottomAbsolute`
+`marginLeft`
+`widthPercent`
+`heightPercent`
+`width`
+`height`
 
 ## Installation
 
@@ -22,7 +43,7 @@ pod "SwiftCSS"
 
 ## Author
 
-Soheil, ysoheil@gmail.com
+[@soheil](https://twitter.com/soheil)
 
 ## License
 

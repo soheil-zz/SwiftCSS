@@ -1,0 +1,14 @@
+PODS:
+  - SwiftCSS (0.1.0)
+
+DEPENDENCIES:
+  - SwiftCSS (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftCSS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftCSS: fd800796a282360b07dca87cdaf00bdf7fbb96a6
+
+COCOAPODS: 0.39.0

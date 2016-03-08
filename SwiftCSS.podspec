@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftCSS"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftCSS."
+  s.summary          = "SwiftCSS extends UIView by providing CSS-like properties to position and size elements."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Soheil" => "ysoheil@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftCSS.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/soheil/SwiftCSS.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/soheil'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
