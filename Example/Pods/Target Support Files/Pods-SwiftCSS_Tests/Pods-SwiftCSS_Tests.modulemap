@@ -1,6 +1,0 @@
-framework module Pods_SwiftCSS_Tests {
-  umbrella header "Pods-SwiftCSS_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
