@@ -2,8 +2,8 @@
   "name": "SwiftCSS",
   "version": "0.1.0",
   "summary": "SwiftCSS extends UIView by providing CSS-like properties to position and size elements.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftCSS",
+  "description": "Quickly style and size any element in your iOS app. Simply add elements like lables and buttons to your view and then use CSS-like attributes like .marginTop=50, width=30% to style them.",
+  "homepage": "https://github.com/soheil/SwiftCSS",
   "license": "MIT",
   "authors": {
     "Soheil": "ysoheil@gmail.com"
@@ -17,7 +17,7 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "source_files": "Pod/Classes/*",
   "resource_bundles": {
     "SwiftCSS": [
       "Pod/Assets/*.png"

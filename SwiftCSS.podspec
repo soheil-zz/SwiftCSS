@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SwiftCSS"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "SwiftCSS extends UIView by providing CSS-like properties to position and size elements."
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Quickly style and size any element in your iOS app. Simply add elements like lables and buttons to your view and then use CSS-like attributes like .marginTop=50, width=30% to style them.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftCSS"
+  s.homepage         = "https://github.com/soheil/SwiftCSS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Soheil" => "ysoheil@gmail.com" }
@@ -29,7 +30,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/*'
+  s.source_files = 'SwiftCSS'
   s.resource_bundles = {
     'SwiftCSS' => ['Pod/Assets/*.png']
   }
