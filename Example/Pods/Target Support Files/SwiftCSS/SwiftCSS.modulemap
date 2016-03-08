@@ -1,0 +1,6 @@
+framework module SwiftCSS {
+  umbrella header "SwiftCSS-umbrella.h"
+
+  export *
+  module * { export * }
+}

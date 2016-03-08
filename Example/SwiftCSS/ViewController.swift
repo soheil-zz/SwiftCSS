@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-    var item = [String: AnyObject]()
     var pic = UIImageView()
     var name = UILabel()
     var addBtn = UIButton()
@@ -23,7 +21,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.whiteColor()
-        pic = UIImageView(image: UIImage(contentsOfFile: "flower"))
+        
+        let bundlePath = NSBundle.mainBundle().pathForResource("flower", ofType: "png")
+        let image = UIImage(contentsOfFile: bundlePath!)
+        pic = UIImageView(image: image)
         view.addSubview(pic)
         
         name.text = "I make your like easy."
@@ -49,7 +50,7 @@ class ViewController: UIViewController {
         count = UILabel(frame: CGRectMake(0, 0, 30, 30))
         count.text = "1"
         count.textColor = UIColor.whiteColor()
-        count.backgroundColor = UIColor.grayColor()
+        count.backgroundColor = UIColor.lightGrayColor()
         count.font = UIFont.boldSystemFontOfSize(20)
         count.textAlignment = NSTextAlignment.Center
         view.addSubview(count)

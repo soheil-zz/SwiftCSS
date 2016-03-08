@@ -51,6 +51,10 @@ width
 height
 ```
 
+## Example Screenshot
+![screenshot][screenshot.png]
+
+
 ## Installation
 
 SwiftCSS is available through [CocoaPods](http://cocoapods.org). To install
