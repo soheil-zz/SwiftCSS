@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftCSS: fd800796a282360b07dca87cdaf00bdf7fbb96a6
+  SwiftCSS: 17eb030d6009899f8645f9b52883bdbabbccd29a
 
 COCOAPODS: 0.39.0

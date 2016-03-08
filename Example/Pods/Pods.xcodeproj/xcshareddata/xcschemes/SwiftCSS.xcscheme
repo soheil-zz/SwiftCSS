@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D7EC1FCA669C775D52FE1042'
+               BlueprintIdentifier = '7FDF1AC0097DB0262FE8664A'
                BlueprintName = 'SwiftCSS'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SwiftCSS.framework'>

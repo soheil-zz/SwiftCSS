@@ -22,15 +22,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Available Properties
 
-`marginTop`
-`marginTopAbsolute`
-`marginBottom`
-`marginBottomAbsolute`
-`marginLeft`
-`widthPercent`
-`heightPercent`
-`width`
-`height`
+```marginTop```
+```marginTopAbsolute```
+```marginBottom```
+```marginBottomAbsolute```
+```marginLeft```
+```widthPercent```
+```heightPercent```
+```width```
+```height```
 
 ## Installation
 

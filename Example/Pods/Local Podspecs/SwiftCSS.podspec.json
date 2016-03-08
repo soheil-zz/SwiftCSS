@@ -1,7 +1,7 @@
 {
   "name": "SwiftCSS",
   "version": "0.1.0",
-  "summary": "SwiftCSS extends UIView to use CSS-like to position and size elements.",
+  "summary": "SwiftCSS extends UIView by providing CSS-like properties to position and size elements.",
   "description": "",
   "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftCSS",
   "license": "MIT",
